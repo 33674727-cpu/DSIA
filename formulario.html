@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Burnout Estudiantil</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 500px; margin: 50px auto; padding: 20px; background: #f4f4f4; }
+        .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        label { font-weight: bold; display: block; margin-top: 15px; }
+        input, select { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #ddd; border-radius: 5px; }
+        button { background: #0070f3; color: white; padding: 12px 20px; border: none; border-radius: 5px; margin-top: 20px; cursor: pointer; width: 100%; font-size: 16px; }
+        button:hover { background: #0051a2; }
+        #resultado { margin-top: 20px; padding: 15px; border-radius: 5px; display: none; }
+        .Bajo { background: #d4edda; color: #155724; }
+        .Medio { background: #fff3cd; color: #856404; }
+        .Alto { background: #f8d7da; color: #721c24; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>🧠 Test Rápido de Burnout Estudiantil</h2>
+        <p>Ingresá tus hábitos para conocer tu nivel de riesgo.</p>
+        
+        <form id="burnoutForm">
+            <label>Horas de sueño promedio por noche:</label>
+            <input type="number" id="horas_sueño" min="0" max="24" step="0.5" required>
+
+            <label>Nivel de estrés financiero (0-10):</label>
+            <input type="number" id="estres_financiero" min="0" max="10" required>
+
+            <label>Nivel de apoyo social percibido (0-10):</label>
+            <input type="number" id="apoyo_social" min="0" max="10" required>
+
+            <label>Horas de estudio diarias:</label>
+            <input type="number" id="horas_estudio" min="0" max="24" step="0.5" required>
+
+            <button type="submit">Predecir mi nivel de riesgo</button>
+        </form>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script>
+        const form = document.getElementById('burnoutForm');
+        const resultadoDiv = document.getElementById('resultado');
+
+        // ⚠️ REEMPLAZÁ ESTA URL CON LA DE TU EDGE FUNCTION
+        const EDGE_FUNCTION_URL = 'https://aeyatxhedhuimttvhnhk.supabase.co/functions/v1/predecir-burnout';
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const data = {
+                horas_sueño: parseFloat(document.getElementById('horas_sueño').value),
+                estres_financiero: parseInt(document.getElementById('estres_financiero').value),
+                apoyo_social: parseInt(document.getElementById('apoyo_social').value),
+                horas_estudio: parseFloat(document.getElementById('horas_estudio').value)
+            };
+
+            resultadoDiv.style.display = 'block';
+            resultadoDiv.innerHTML = 'Calculando...';
+            resultadoDiv.className = '';
+
+            try {
+                const response = await fetch(EDGE_FUNCTION_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+
+                const result = await response.json();
+                
+                if (response.ok) {
+                    resultadoDiv.innerHTML = `
+                        <h3>${result.mensaje}</h3>
+                        <p>Puntaje de riesgo: ${result.puntaje} / 8</p>
+                        <small>Basado en tus hábitos de sueño, estrés financiero, apoyo social y horas de estudio.</small>
+                    `;
+                    resultadoDiv.className = result.nivel;
+                } else {
+                    resultadoDiv.innerHTML = `Error: ${result.error}`;
+                    resultadoDiv.className = '';
+                }
+            } catch (error) {
+                resultadoDiv.innerHTML = `Error de conexión: ${error.message}`;
+                resultadoDiv.className = '';
+            }
+        });
+    </script>
+</body>
+</html>
