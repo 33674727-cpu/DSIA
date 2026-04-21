@@ -10,8 +10,8 @@ st.markdown("Datos en vivo desde Supabase. Análisis basado en hábitos de estud
 
 # --- Conexión a Supabase ---
 # Las credenciales se leen de los secretos de Streamlit Cloud
-SUPABASE_URL = st.secrets["https://aeyatxhedhuimttvhnhk.supabase.co"]
-SUPABASE_KEY = st.secrets["eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFleWF0eGhlZGh1aW10dHZobmhrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzY3ODI4NTksImV4cCI6MjA5MjM1ODg1OX0.y6C8bIONBWVD8qey-JFFv7H4EYsg57BAmS22yyXZ8-g"]
+SUPABASE_URL = st.secrets["SUPABASE_URL"]
+SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
 
 @st.cache_resource
 def init_supabase() -> Client:
