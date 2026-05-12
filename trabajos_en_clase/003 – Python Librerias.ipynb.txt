@@ -1,0 +1,444 @@
+{
+    "cells": [
+        {
+            "block_group": "ada905e0e94c4d0b86f78e4bc9eb2284",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 0,
+                "formattedRanges": [],
+                "color": "purple",
+                "cell_id": "def80cb421b14fc29e92da56b6758436",
+                "deepnote_block_group": "ada905e0e94c4d0b86f78e4bc9eb2284",
+                "deepnote_cell_type": "text-cell-callout",
+                "deepnote_sorting_key": "0",
+                "deepnote_source": "TP03 – Python Librerías"
+            },
+            "source": "> TP03 – Python Librerías"
+        },
+        {
+            "block_group": "fc664249defb4b6d90e4e35c9016f248",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 1,
+                "formattedRanges": [],
+                "cell_id": "b36c0ea67db14a22a6404fb01cc25c2c",
+                "deepnote_block_group": "fc664249defb4b6d90e4e35c9016f248",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "1",
+                "deepnote_source": "Burgos Juan"
+            },
+            "source": "Burgos Juan"
+        },
+        {
+            "block_group": "cabbfe0892c54683bf0dae969393b1e2",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 2,
+                "formattedRanges": [],
+                "color": "purple",
+                "cell_id": "7b893ae123b34b1884daf2b07f640501",
+                "deepnote_block_group": "cabbfe0892c54683bf0dae969393b1e2",
+                "deepnote_cell_type": "text-cell-callout",
+                "deepnote_sorting_key": "2",
+                "deepnote_source": "Ejercicio 1 – Importación de librerías"
+            },
+            "source": "> Ejercicio 1 – Importación de librerías"
+        },
+        {
+            "block_group": "85a49c4c1ad34f35a6b41be3e5d28672",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 3,
+                "formattedRanges": [],
+                "cell_id": "d38b971724d34890a1a44f4327b65aa1",
+                "deepnote_block_group": "85a49c4c1ad34f35a6b41be3e5d28672",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "3",
+                "deepnote_source": "Crear un bloque de código e importar las siguientes librerías:"
+            },
+            "source": "Crear un bloque de código e importar las siguientes librerías:"
+        },
+        {
+            "block_group": "1601d40be8a6430d8bde43767cfb6c9a",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 4,
+                "formattedRanges": [],
+                "cell_id": "7bf128a086f6461a8b2f6bc28c389ce2",
+                "deepnote_block_group": "1601d40be8a6430d8bde43767cfb6c9a",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "4",
+                "deepnote_source": "import numpy as np\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt"
+            },
+            "source": "import numpy as np\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib\\.pyplot as plt"
+        },
+        {
+            "block_group": "ed637a2455db4dff963cdd1cd0b4885d",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 5,
+                "formattedRanges": [],
+                "cell_id": "56622737d57f4a9c925f5966d4e47664",
+                "deepnote_block_group": "ed637a2455db4dff963cdd1cd0b4885d",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "5",
+                "deepnote_source": "Luego crear un array de NumPy con 5 números y mostrarlo por pantalla."
+            },
+            "source": "Luego crear un array de NumPy con 5 números y mostrarlo por pantalla\\."
+        },
+        {
+            "block_group": "758d3a6083c24fa1a0c254379da1eea1",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 6,
+                "formattedRanges": [],
+                "cell_id": "82831555191c4b8680ab77c039f176ce",
+                "deepnote_block_group": "758d3a6083c24fa1a0c254379da1eea1",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "6",
+                "deepnote_source": "Ejemplo:"
+            },
+            "source": "Ejemplo:"
+        },
+        {
+            "block_group": "fc17aa8b6f3a49a9be4c5738e4cc8568",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 7,
+                "formattedRanges": [],
+                "cell_id": "eaa9a83be886450eaea37a7f2ddc2bdb",
+                "deepnote_block_group": "fc17aa8b6f3a49a9be4c5738e4cc8568",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "7",
+                "deepnote_source": "datos = np.array([10, 20, 30, 40, 50])\nprint(datos)"
+            },
+            "source": "datos = np\\.array\\(\\[10, 20, 30, 40, 50\\]\\)\nprint\\(datos\\)"
+        },
+        {
+            "block_group": "09c094f8f67e4f15bd865240f5e95846",
+            "cell_type": "code",
+            "execution_count": 8,
+            "metadata": {
+                "deepnote_app_is_code_hidden": true,
+                "deepnote_app_is_output_hidden": false,
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 8,
+                "execution_start": 1775696964379,
+                "execution_millis": 3342,
+                "source_hash": "ecd78d77",
+                "execution_context_id": "be4224cf-2013-44ab-9990-30d5f004f0bb",
+                "cell_id": "404e502738ed47f1863289f82df5df67",
+                "deepnote_block_group": "09c094f8f67e4f15bd865240f5e95846",
+                "deepnote_cell_type": "code",
+                "deepnote_sorting_key": "8",
+                "deepnote_content_hash": "ecd78d77",
+                "deepnote_execution_started_at": "2026-04-09T01:09:24.379Z",
+                "deepnote_execution_finished_at": "2026-04-09T01:09:27.721Z",
+                "deepnote_source": "import numpy as np\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndatos = np.array([10, 20, 30, 40, 50])\nprint(datos)"
+            },
+            "outputs": [
+                {
+                    "name": "stdout",
+                    "text": "[10 20 30 40 50]\n",
+                    "output_type": "stream"
+                }
+            ],
+            "source": "import numpy as np\nimport pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndatos = np.array([10, 20, 30, 40, 50])\nprint(datos)"
+        },
+        {
+            "block_group": "1f85f6d1af4e470582b216caddd87a43",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 9,
+                "formattedRanges": [],
+                "color": "purple",
+                "cell_id": "f62faff6feab41e9b696ce3d943f8d71",
+                "deepnote_block_group": "1f85f6d1af4e470582b216caddd87a43",
+                "deepnote_cell_type": "text-cell-callout",
+                "deepnote_sorting_key": "9",
+                "deepnote_source": "Ejercicio 2 – Dataset simple con Pandas"
+            },
+            "source": "> Ejercicio 2 – Dataset simple con Pandas"
+        },
+        {
+            "block_group": "7774343cf6b44cac8862af177e2ae4a0",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 10,
+                "formattedRanges": [],
+                "cell_id": "b8a2e620bce34709aeb30462b75f7e23",
+                "deepnote_block_group": "7774343cf6b44cac8862af177e2ae4a0",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "10",
+                "deepnote_source": "Crear un DataFrame de Pandas con la siguiente información:"
+            },
+            "source": "Crear un DataFrame de Pandas con la siguiente información:"
+        },
+        {
+            "block_group": "cc444fe4f2904f169e5625a9d70ee019",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 11,
+                "formattedRanges": [],
+                "cell_id": "4f0bdc5209c1427bb9789b85e214e36b",
+                "deepnote_block_group": "cc444fe4f2904f169e5625a9d70ee019",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "11",
+                "deepnote_source": "estudiante\tnota\nAna.  \t8\nJuan\t6\nCarla\t9\nPedro\t5\nLucia\t7"
+            },
+            "source": "estudiante\tnota\nAna\\.  \t8\nJuan\t6\nCarla\t9\nPedro\t5\nLucia\t7"
+        },
+        {
+            "block_group": "038460c5ae5645a189215b738b72cd2b",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 12,
+                "formattedRanges": [],
+                "cell_id": "bcd4a843c0754ffcb493175ba975ed63",
+                "deepnote_block_group": "038460c5ae5645a189215b738b72cd2b",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "12",
+                "deepnote_source": "Luego realizar las siguientes operaciones:"
+            },
+            "source": "Luego realizar las siguientes operaciones:"
+        },
+        {
+            "block_group": "03b61bc600064deca9362af63e90ee7b",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 13,
+                "formattedRanges": [],
+                "cell_id": "57bc4c590a0a4f03b736af92295515d0",
+                "deepnote_block_group": "03b61bc600064deca9362af63e90ee7b",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "13",
+                "deepnote_source": "Mostrar el DataFrame\nCalcular el promedio de las notas\nMostrar la nota máxima\nMostrar la nota mínima"
+            },
+            "source": "Mostrar el DataFrame\nCalcular el promedio de las notas\nMostrar la nota máxima\nMostrar la nota mínima"
+        },
+        {
+            "block_group": "8b1c6e9fa027488fab5149391edafef1",
+            "cell_type": "code",
+            "execution_count": 6,
+            "metadata": {
+                "deepnote_app_is_code_hidden": true,
+                "deepnote_app_is_output_hidden": false,
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 14,
+                "execution_start": 1775696635846,
+                "execution_millis": 2,
+                "source_hash": "4ccb064",
+                "execution_context_id": "be4224cf-2013-44ab-9990-30d5f004f0bb",
+                "cell_id": "7b6224bf8f2d429e98fe5c0796137f0e",
+                "deepnote_block_group": "8b1c6e9fa027488fab5149391edafef1",
+                "deepnote_cell_type": "code",
+                "deepnote_sorting_key": "14",
+                "deepnote_content_hash": "4ccb064",
+                "deepnote_execution_started_at": "2026-04-09T01:03:55.846Z",
+                "deepnote_execution_finished_at": "2026-04-09T01:03:55.848Z",
+                "deepnote_source": "import pandas as pd\n\ndata = {\n    \"estudiante\": [\"Ana\", \"Juan\", \"Carla\", \"Pedro\", \"Lucia\"],\n    \"nota\": [8, 6, 9, 5, 7]\n}\n\ndf = pd.DataFrame(data)\n\nprint(\"DataFrame:\")\nprint(df)\n\npromedio = df[\"nota\"].mean()\nprint(f\"\\nPromedio de notas: {promedio:.2f}\")\n\nmax_nota = df[\"nota\"].max()\nprint(f\"Nota máxima: {max_nota}\")\n\nmin_nota = df[\"nota\"].min()\nprint(f\"Nota mínima: {min_nota}\")"
+            },
+            "outputs": [
+                {
+                    "name": "stdout",
+                    "text": "DataFrame:\n  estudiante  nota\n0        Ana     8\n1       Juan     6\n2      Carla     9\n3      Pedro     5\n4      Lucia     7\n\nPromedio de notas: 7.00\nNota máxima: 9\nNota mínima: 5\n",
+                    "output_type": "stream"
+                }
+            ],
+            "source": "import pandas as pd\n\ndata = {\n    \"estudiante\": [\"Ana\", \"Juan\", \"Carla\", \"Pedro\", \"Lucia\"],\n    \"nota\": [8, 6, 9, 5, 7]\n}\n\ndf = pd.DataFrame(data)\n\nprint(\"DataFrame:\")\nprint(df)\n\npromedio = df[\"nota\"].mean()\nprint(f\"\\nPromedio de notas: {promedio:.2f}\")\n\nmax_nota = df[\"nota\"].max()\nprint(f\"Nota máxima: {max_nota}\")\n\nmin_nota = df[\"nota\"].min()\nprint(f\"Nota mínima: {min_nota}\")"
+        },
+        {
+            "block_group": "572db2aa5e1647be861017701be40e5b",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 15,
+                "formattedRanges": [],
+                "color": "purple",
+                "cell_id": "dc05fcc6c0744be9b7d69a192acb7a9e",
+                "deepnote_block_group": "572db2aa5e1647be861017701be40e5b",
+                "deepnote_cell_type": "text-cell-callout",
+                "deepnote_sorting_key": "15",
+                "deepnote_source": "Ejercicio 3 – Criterio de selección de herramienta"
+            },
+            "source": "> Ejercicio 3 – Criterio de selección de herramienta"
+        },
+        {
+            "block_group": "a8364c1726a8458f8565db3df0675ca3",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 16,
+                "formattedRanges": [],
+                "color": "purple",
+                "cell_id": "0100e54510714ee6956d9b66d966e45b",
+                "deepnote_block_group": "a8364c1726a8458f8565db3df0675ca3",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "16",
+                "deepnote_source": "En un  bloque de texto responder brevemente: ¿Qué librería utilizarías para cada una de las siguientes tareas?"
+            },
+            "source": "En un  bloque de texto responder brevemente: ¿Qué librería utilizarías para cada una de las siguientes tareas?"
+        },
+        {
+            "block_group": "07d0277985ed42318d73aa4f386a4b07",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 17,
+                "formattedRanges": [],
+                "cell_id": "baa658d0a67d48a6931e8416b28e9862",
+                "deepnote_block_group": "07d0277985ed42318d73aa4f386a4b07",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "17",
+                "deepnote_source": "Leer un archivo CSV con datos de encuestas\nCrear un gráfico de distribución de datos\nRealizar un modelo de Machine Learning\nTrabajar con operaciones matemáticas sobre matrices\nEscribir la librería elegida y una breve justificación."
+            },
+            "source": "Leer un archivo CSV con datos de encuestas\nCrear un gráfico de distribución de datos\nRealizar un modelo de Machine Learning\nTrabajar con operaciones matemáticas sobre matrices\nEscribir la librería elegida y una breve justificación\\."
+        },
+        {
+            "block_group": "b17fb6dfef8548eab67470d234869f36",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 18,
+                "formattedRanges": [],
+                "cell_id": "b011914bb1c54dedab521eb488052710",
+                "deepnote_block_group": "b17fb6dfef8548eab67470d234869f36",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "18",
+                "deepnote_source": "Ejemplo:"
+            },
+            "source": "Ejemplo:"
+        },
+        {
+            "block_group": "6f7a033d397c47ea9397dc83754d398d",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 19,
+                "formattedRanges": [],
+                "cell_id": "646edf691c77466b83673918d418942e",
+                "deepnote_block_group": "6f7a033d397c47ea9397dc83754d398d",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "19",
+                "deepnote_source": "1) pandas → porque permite leer archivos CSV y manipular datasets tabulares."
+            },
+            "source": "1\\) pandas → porque permite leer archivos CSV y manipular datasets tabulares\\."
+        },
+        {
+            "block_group": "ca79ff08e86445fabae535f75bb45b88",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 19,
+                "formattedRanges": [],
+                "cell_id": "cce48e90854f4f4890d68989e10b8022",
+                "deepnote_block_group": "ca79ff08e86445fabae535f75bb45b88",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "20",
+                "deepnote_source": "2) seaborn → porque facilita la creación de gráficos de distribución con funciones estadísticas integradas y código conciso."
+            },
+            "source": "2\\) seaborn → porque facilita la creación de gráficos de distribución con funciones estadísticas integradas y código conciso\\."
+        },
+        {
+            "block_group": "8e402ce1351f4d0b9783ebf9b62a1da1",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 19,
+                "formattedRanges": [],
+                "cell_id": "04a8be475d9e493a9e3d1810b35fe88c",
+                "deepnote_block_group": "8e402ce1351f4d0b9783ebf9b62a1da1",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "21",
+                "deepnote_source": "3) scikit-learn → porque ofrece algoritmos de machine learning estandarizados, herramientas de preprocesamiento y métricas de evaluación listas para usar. "
+            },
+            "source": "3\\) scikit\\-learn → porque ofrece algoritmos de machine learning estandarizados, herramientas de preprocesamiento y métricas de evaluación listas para usar\\. "
+        },
+        {
+            "block_group": "5427341406ef4cecbd5ab7de0a9d2e62",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "deepnote_app_block_visible": true,
+                "deepnote_app_block_group_id": null,
+                "deepnote_app_block_order": 19,
+                "formattedRanges": [],
+                "cell_id": "41f102b209954340b9df7a81ea0f5de3",
+                "deepnote_block_group": "5427341406ef4cecbd5ab7de0a9d2e62",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "22",
+                "deepnote_source": "4) numpy → porque está optimizada para realizar operaciones matemáticas rápidas y eficientes sobre matrices y arrays multidimensionales."
+            },
+            "source": "4\\) numpy → porque está optimizada para realizar operaciones matemáticas rápidas y eficientes sobre matrices y arrays multidimensionales\\."
+        },
+        {
+            "cell_type": "markdown",
+            "source": "<a style='text-decoration:none;line-height:16px;display:flex;color:#5B5B62;padding:10px;justify-content:end;' href='https://deepnote.com?utm_source=created-in-deepnote-cell&projectId=ba8e89c3-016c-4a4b-8163-2fe163c3d780' target=\"_blank\">\n<img alt='Created in deepnote.com' style='display:inline;max-height:16px;margin:0px;margin-right:7.5px;' src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iODBweCIgaGVpZ2h0PSI4MHB4IiB2aWV3Qm94PSIwIDAgODAgODAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU0LjEgKDc2NDkwKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cCAzPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IkxhbmRpbmciIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBcnRib2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyMzUuMDAwMDAwLCAtNzkuMDAwMDAwKSI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjM1LjAwMDAwMCwgNzkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iUGF0aC0yMCIgZmlsbD0iIzAyNjVCNCIgcG9pbnRzPSIyLjM3NjIzNzYyIDgwIDM4LjA0NzY2NjcgODAgNTcuODIxNzgyMiA3My44MDU3NTkyIDU3LjgyMTc4MjIgMzIuNzU5MjczOSAzOS4xNDAyMjc4IDMxLjY4MzE2ODMiPjwvcG9seWdvbj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zNS4wMDc3MTgsODAgQzQyLjkwNjIwMDcsNzYuNDU0OTM1OCA0Ny41NjQ5MTY3LDcxLjU0MjI2NzEgNDguOTgzODY2LDY1LjI2MTk5MzkgQzUxLjExMjI4OTksNTUuODQxNTg0MiA0MS42NzcxNzk1LDQ5LjIxMjIyODQgMjUuNjIzOTg0Niw0OS4yMTIyMjg0IEMyNS40ODQ5Mjg5LDQ5LjEyNjg0NDggMjkuODI2MTI5Niw0My4yODM4MjQ4IDM4LjY0NzU4NjksMzEuNjgzMTY4MyBMNzIuODcxMjg3MSwzMi41NTQ0MjUgTDY1LjI4MDk3Myw2Ny42NzYzNDIxIEw1MS4xMTIyODk5LDc3LjM3NjE0NCBMMzUuMDA3NzE4LDgwIFoiIGlkPSJQYXRoLTIyIiBmaWxsPSIjMDAyODY4Ij48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMCwzNy43MzA0NDA1IEwyNy4xMTQ1MzcsMC4yNTcxMTE0MzYgQzYyLjM3MTUxMjMsLTEuOTkwNzE3MDEgODAsMTAuNTAwMzkyNyA4MCwzNy43MzA0NDA1IEM4MCw2NC45NjA0ODgyIDY0Ljc3NjUwMzgsNzkuMDUwMzQxNCAzNC4zMjk1MTEzLDgwIEM0Ny4wNTUzNDg5LDc3LjU2NzA4MDggNTMuNDE4MjY3Nyw3MC4zMTM2MTAzIDUzLjQxODI2NzcsNTguMjM5NTg4NSBDNTMuNDE4MjY3Nyw0MC4xMjg1NTU3IDM2LjMwMzk1NDQsMzcuNzMwNDQwNSAyNS4yMjc0MTcsMzcuNzMwNDQwNSBDMTcuODQzMDU4NiwzNy43MzA0NDA1IDkuNDMzOTE5NjYsMzcuNzMwNDQwNSAwLDM3LjczMDQ0MDUgWiIgaWQ9IlBhdGgtMTkiIGZpbGw9IiMzNzkzRUYiPjwvcGF0aD4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+' />\nCreated in <span style='font-weight:600;margin-left:4px;'>Deepnote</span></a>",
+            "metadata": {
+                "created_in_deepnote_cell": true,
+                "deepnote_cell_type": "markdown"
+            }
+        }
+    ],
+    "metadata": {
+        "deepnote_notebook_id": "ce3113b8a91c426a8020a7391c2c7c32",
+        "deepnote_notebook_name": "003 – Python Librerias"
+    },
+    "nbformat": 4,
+    "nbformat_minor": 0
+}

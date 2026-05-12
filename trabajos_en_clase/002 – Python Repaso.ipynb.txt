@@ -1,0 +1,314 @@
+{
+    "cells": [
+        {
+            "block_group": "9e00175b5c464bc3ad3c20adf0fa72da",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "color": "purple",
+                "cell_id": "48c72d43b96946a6b5e6aa7c2016b77e",
+                "deepnote_block_group": "9e00175b5c464bc3ad3c20adf0fa72da",
+                "deepnote_cell_type": "text-cell-callout",
+                "deepnote_sorting_key": "0",
+                "deepnote_source": " TP02 – Introducción a Python"
+            },
+            "source": ">  TP02 – Introducción a Python"
+        },
+        {
+            "block_group": "d66cbc471a214f708a9e353942e69e5e",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "cell_id": "bc3e28e870a44a86a7d2a54b13a76d8c",
+                "deepnote_block_group": "d66cbc471a214f708a9e353942e69e5e",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "1",
+                "deepnote_source": "Burgos Juan"
+            },
+            "source": "Burgos Juan"
+        },
+        {
+            "block_group": "052e390179c8412780ef2494d5f7f7b1",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "color": "purple",
+                "cell_id": "067d5a2ec89e49e1ab557ce97c28ea21",
+                "deepnote_block_group": "052e390179c8412780ef2494d5f7f7b1",
+                "deepnote_cell_type": "text-cell-callout",
+                "deepnote_sorting_key": "2",
+                "deepnote_source": "Ejercicio 1 – Variables y operaciones"
+            },
+            "source": "> Ejercicio 1 – Variables y operaciones"
+        },
+        {
+            "block_group": "8f38ddfe2d354cfe86ca8aab35c9bcb6",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "cell_id": "4c14bf17994e4579be0dea2f2461fde4",
+                "deepnote_block_group": "8f38ddfe2d354cfe86ca8aab35c9bcb6",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "3",
+                "deepnote_source": "¿Crear variables para almacenar:"
+            },
+            "source": "¿Crear variables para almacenar:"
+        },
+        {
+            "block_group": "290e1b4f6fd74e798b448d29640a49d7",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "cell_id": "bfa28380838c4ed8a2c400f4b4d650a9",
+                "deepnote_block_group": "290e1b4f6fd74e798b448d29640a49d7",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "4",
+                "deepnote_source": "tu nombre\ntu edad\ntu ciudad\nLuego imprimir un mensaje con el siguiente formato:\nHola, mi nombre es ___, tengo ___ años y vivo en ___."
+            },
+            "source": "tu nombre\ntu edad\ntu ciudad\nLuego imprimir un mensaje con el siguiente formato:\nHola, mi nombre es \\_\\_\\_, tengo \\_\\_\\_ años y vivo en \\_\\_\\_\\."
+        },
+        {
+            "block_group": "3a6f8f7035f8485ca24b38054d6a2266",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "cell_id": "06d702e499004435903a0cd86830f2bd",
+                "deepnote_block_group": "3a6f8f7035f8485ca24b38054d6a2266",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "5",
+                "deepnote_source": " A continuación, crear dos variables numéricas a y b, asignarles valores y calcular:"
+            },
+            "source": " A continuación, crear dos variables numéricas a y b, asignarles valores y calcular:"
+        },
+        {
+            "block_group": "14b7d0722a4848d788b789570863e15d",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "cell_id": "122814aa54e84fb49465b3f45b234558",
+                "deepnote_block_group": "14b7d0722a4848d788b789570863e15d",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "6",
+                "deepnote_source": "suma\nresta\nmultiplicación\ndivisión\nMostrar los resultados utilizando print()."
+            },
+            "source": "suma\nresta\nmultiplicación\ndivisión\nMostrar los resultados utilizando print\\(\\)\\."
+        },
+        {
+            "block_group": "2b7098e6a662449a96eedcecd3dc143f",
+            "cell_type": "code",
+            "execution_count": 5,
+            "metadata": {
+                "execution_start": 1774478072853,
+                "execution_millis": 11100,
+                "source_hash": "720002b",
+                "execution_context_id": "710addba-f1fb-43d0-9513-086a2e64d079",
+                "cell_id": "28d0530c9ef84721ac28d414af6da211",
+                "deepnote_block_group": "2b7098e6a662449a96eedcecd3dc143f",
+                "deepnote_cell_type": "code",
+                "deepnote_sorting_key": "7",
+                "deepnote_content_hash": "720002b",
+                "deepnote_execution_started_at": "2026-03-25T22:34:32.853Z",
+                "deepnote_execution_finished_at": "2026-03-25T22:34:43.953Z",
+                "deepnote_source": "#pedimos que ingrese datos al usuario y cargamoslas variabless\nnombre = input(\"Ingresa tu nombre: \")\nedad = int(input(\"Ingresa tu edad: \"))\nciudad = input(\"Ingresa tu ciudad: \")\n\n# Mostrar mensaje final\nprint(f\"Hola, mi nombre es {nombre}, tengo {edad} años y vivo en {ciudad}.\")"
+            },
+            "outputs": [
+                {
+                    "name": "stdout",
+                    "text": "Hola, mi nombre es juan, tengo 38 años y vivo en merlo.\n",
+                    "output_type": "stream"
+                }
+            ],
+            "source": "#pedimos que ingrese datos al usuario y cargamoslas variabless\nnombre = input(\"Ingresa tu nombre: \")\nedad = int(input(\"Ingresa tu edad: \"))\nciudad = input(\"Ingresa tu ciudad: \")\n\n# Mostrar mensaje final\nprint(f\"Hola, mi nombre es {nombre}, tengo {edad} años y vivo en {ciudad}.\")"
+        },
+        {
+            "block_group": "fad16e3fe8404142b2ad48187588e908",
+            "cell_type": "code",
+            "execution_count": 1,
+            "metadata": {
+                "execution_start": 1775081471635,
+                "execution_millis": 10632,
+                "source_hash": "e42de1fe",
+                "execution_context_id": "d55b3707-8584-45f0-bc6d-91aa61219fbf",
+                "cell_id": "4130aa7195654906a36213a6b40af48e",
+                "deepnote_block_group": "fad16e3fe8404142b2ad48187588e908",
+                "deepnote_cell_type": "code",
+                "deepnote_sorting_key": "8",
+                "deepnote_content_hash": "e42de1fe",
+                "deepnote_execution_started_at": "2026-04-01T22:11:11.635Z",
+                "deepnote_execution_finished_at": "2026-04-01T22:11:22.267Z",
+                "deepnote_source": "a = float(input(\"ingrese primer valor: \"))\nb = float(input(\"ingrese segundo valor: \"))\n\nsuma = a + b\nresta = a - b\nmultiplicacion = a * b\ndivision = a / b\n\nprint(\"la suma es\", suma)\nprint(\"la resta es\", resta)\nprint(\"la multiplicación es\", multiplicacion)\nprint(\"la división es\", division)"
+            },
+            "outputs": [
+                {
+                    "name": "stdout",
+                    "text": "la suma es 81.0\nla resta es -73.0\nla multiplicación es 308.0\nla división es 0.05194805194805195\n",
+                    "output_type": "stream"
+                }
+            ],
+            "source": "a = float(input(\"ingrese primer valor: \"))\nb = float(input(\"ingrese segundo valor: \"))\n\nsuma = a + b\nresta = a - b\nmultiplicacion = a * b\ndivision = a / b\n\nprint(\"la suma es\", suma)\nprint(\"la resta es\", resta)\nprint(\"la multiplicación es\", multiplicacion)\nprint(\"la división es\", division)"
+        },
+        {
+            "block_group": "58cded5ed023417692c42622b2ffa119",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "color": "purple",
+                "cell_id": "ac9d5fb841784e039cc5cd1b88623b87",
+                "deepnote_block_group": "58cded5ed023417692c42622b2ffa119",
+                "deepnote_cell_type": "text-cell-callout",
+                "deepnote_sorting_key": "9",
+                "deepnote_source": "Ejercicio 2 – Condicionales"
+            },
+            "source": "> Ejercicio 2 – Condicionales"
+        },
+        {
+            "block_group": "a542a4ca40ac40379b2324409f5903a9",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "cell_id": "3dd3aacf5ea7432bbf698a6b539c2163",
+                "deepnote_block_group": "a542a4ca40ac40379b2324409f5903a9",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "10",
+                "deepnote_source": "Crear un programa que:"
+            },
+            "source": "Crear un programa que:"
+        },
+        {
+            "block_group": "b0983bf1f6cd4091863e41986f13a7a9",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "cell_id": "0d7c151f90b5468682778a9b3699d64c",
+                "deepnote_block_group": "b0983bf1f6cd4091863e41986f13a7a9",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "11",
+                "deepnote_source": "Pida al usuario que ingrese su edad usando input()\nDetermine si la persona es mayor o menor de edad\nMostrar uno de los siguientes mensajes:"
+            },
+            "source": "Pida al usuario que ingrese su edad usando input\\(\\)\nDetermine si la persona es mayor o menor de edad\nMostrar uno de los siguientes mensajes:"
+        },
+        {
+            "block_group": "7e204fab3e3b4e5eb09147115faeba93",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "cell_id": "7c59d4f710b549f98cf8e2f713cd8f77",
+                "deepnote_block_group": "7e204fab3e3b4e5eb09147115faeba93",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "12",
+                "deepnote_source": "Eres mayor de edad\no\nEres menor de edad"
+            },
+            "source": "Eres mayor de edad\no\nEres menor de edad"
+        },
+        {
+            "block_group": "aac0012e199c45768c1d655e6596584b",
+            "cell_type": "code",
+            "execution_count": 5,
+            "metadata": {
+                "execution_start": 1774476314113,
+                "execution_millis": 3779,
+                "source_hash": "c1827057",
+                "execution_context_id": "710addba-f1fb-43d0-9513-086a2e64d079",
+                "deepnote_to_be_reexecuted": true,
+                "cell_id": "78f5749f20324a7cbee38ed4072bfacf",
+                "deepnote_block_group": "aac0012e199c45768c1d655e6596584b",
+                "deepnote_cell_type": "code",
+                "deepnote_sorting_key": "13",
+                "deepnote_content_hash": "c1827057",
+                "deepnote_execution_started_at": "2026-03-25T22:05:14.113Z",
+                "deepnote_execution_finished_at": "2026-03-25T22:05:17.892Z",
+                "deepnote_source": "edad = int(input(\"Ingresa tu edad: \"))\n\nif edad >= 18:\n    print(\"Eres mayor de edad\")\nelse:\n    print(\"Eres menor de edad\")"
+            },
+            "outputs": [
+                {
+                    "name": "stdout",
+                    "text": "Eres mayor de edad\n",
+                    "output_type": "stream"
+                }
+            ],
+            "source": "edad = int(input(\"Ingresa tu edad: \"))\n\nif edad >= 18:\n    print(\"Eres mayor de edad\")\nelse:\n    print(\"Eres menor de edad\")"
+        },
+        {
+            "block_group": "8542d96260834abd8205fbf984f7386c",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "color": "purple",
+                "cell_id": "412c7b3f96f342458b79067efe97ef9b",
+                "deepnote_block_group": "8542d96260834abd8205fbf984f7386c",
+                "deepnote_cell_type": "text-cell-callout",
+                "deepnote_sorting_key": "14",
+                "deepnote_source": "Ejercicio 3 – Listas y bucles"
+            },
+            "source": "> Ejercicio 3 – Listas y bucles"
+        },
+        {
+            "block_group": "88ef71a646014be1853bd832dcccd090",
+            "cell_type": "markdown",
+            "execution_count": null,
+            "metadata": {
+                "formattedRanges": [],
+                "cell_id": "25dc5e340ed24f57ab92c4148f77d368",
+                "deepnote_block_group": "88ef71a646014be1853bd832dcccd090",
+                "deepnote_cell_type": "text-cell-p",
+                "deepnote_sorting_key": "15",
+                "deepnote_source": "Crear una lista con 5 números. Utilizando un bucle for, imprimir cada número de la lista.Luego:\nCalcular la suma total de los números\nCalcular el promedio\nMostrar ambos resultados por pantalla.\n"
+            },
+            "source": "Crear una lista con 5 números\\. Utilizando un bucle for, imprimir cada número de la lista\\.Luego:\nCalcular la suma total de los números\nCalcular el promedio\nMostrar ambos resultados por pantalla\\.\n"
+        },
+        {
+            "block_group": "4b004cb381db4c7b962127cc6bacf288",
+            "cell_type": "code",
+            "execution_count": 5,
+            "metadata": {
+                "execution_start": 1774476371014,
+                "execution_millis": 16399,
+                "source_hash": "dcf1615",
+                "execution_context_id": "710addba-f1fb-43d0-9513-086a2e64d079",
+                "deepnote_to_be_reexecuted": true,
+                "cell_id": "cdce809c4a1f41c4909111f190e81e64",
+                "deepnote_block_group": "4b004cb381db4c7b962127cc6bacf288",
+                "deepnote_cell_type": "code",
+                "deepnote_sorting_key": "16",
+                "deepnote_content_hash": "dcf1615",
+                "deepnote_execution_started_at": "2026-03-25T22:06:11.014Z",
+                "deepnote_execution_finished_at": "2026-03-25T22:06:27.413Z",
+                "deepnote_source": "numeros = []\n\nfor i in range(5):\n    num = float(input(\"Ingrese un número: \"))\n    numeros.append(num)\n\nprint(\"Números ingresados:\")\nfor num in numeros:\n    print(num)\n\ntotal = sum(numeros)\npromedio = total / len(numeros)\n\nprint(\"Suma total:\", total)\nprint(\"Promedio:\", promedio)"
+            },
+            "outputs": [
+                {
+                    "name": "stdout",
+                    "text": "Números ingresados:\n8.0\n9.0\n8.0\n9.0\n9.0\nSuma total: 43.0\nPromedio: 8.6\n",
+                    "output_type": "stream"
+                }
+            ],
+            "source": "numeros = []\n\nfor i in range(5):\n    num = float(input(\"Ingrese un número: \"))\n    numeros.append(num)\n\nprint(\"Números ingresados:\")\nfor num in numeros:\n    print(num)\n\ntotal = sum(numeros)\npromedio = total / len(numeros)\n\nprint(\"Suma total:\", total)\nprint(\"Promedio:\", promedio)"
+        },
+        {
+            "cell_type": "markdown",
+            "source": "<a style='text-decoration:none;line-height:16px;display:flex;color:#5B5B62;padding:10px;justify-content:end;' href='https://deepnote.com?utm_source=created-in-deepnote-cell&projectId=ba8e89c3-016c-4a4b-8163-2fe163c3d780' target=\"_blank\">\n<img alt='Created in deepnote.com' style='display:inline;max-height:16px;margin:0px;margin-right:7.5px;' src='data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iODBweCIgaGVpZ2h0PSI4MHB4IiB2aWV3Qm94PSIwIDAgODAgODAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDU0LjEgKDc2NDkwKSAtIGh0dHBzOi8vc2tldGNoYXBwLmNvbSAtLT4KICAgIDx0aXRsZT5Hcm91cCAzPC90aXRsZT4KICAgIDxkZXNjPkNyZWF0ZWQgd2l0aCBTa2V0Y2guPC9kZXNjPgogICAgPGcgaWQ9IkxhbmRpbmciIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJBcnRib2FyZCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEyMzUuMDAwMDAwLCAtNzkuMDAwMDAwKSI+CiAgICAgICAgICAgIDxnIGlkPSJHcm91cC0zIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjM1LjAwMDAwMCwgNzkuMDAwMDAwKSI+CiAgICAgICAgICAgICAgICA8cG9seWdvbiBpZD0iUGF0aC0yMCIgZmlsbD0iIzAyNjVCNCIgcG9pbnRzPSIyLjM3NjIzNzYyIDgwIDM4LjA0NzY2NjcgODAgNTcuODIxNzgyMiA3My44MDU3NTkyIDU3LjgyMTc4MjIgMzIuNzU5MjczOSAzOS4xNDAyMjc4IDMxLjY4MzE2ODMiPjwvcG9seWdvbj4KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zNS4wMDc3MTgsODAgQzQyLjkwNjIwMDcsNzYuNDU0OTM1OCA0Ny41NjQ5MTY3LDcxLjU0MjI2NzEgNDguOTgzODY2LDY1LjI2MTk5MzkgQzUxLjExMjI4OTksNTUuODQxNTg0MiA0MS42NzcxNzk1LDQ5LjIxMjIyODQgMjUuNjIzOTg0Niw0OS4yMTIyMjg0IEMyNS40ODQ5Mjg5LDQ5LjEyNjg0NDggMjkuODI2MTI5Niw0My4yODM4MjQ4IDM4LjY0NzU4NjksMzEuNjgzMTY4MyBMNzIuODcxMjg3MSwzMi41NTQ0MjUgTDY1LjI4MDk3Myw2Ny42NzYzNDIxIEw1MS4xMTIyODk5LDc3LjM3NjE0NCBMMzUuMDA3NzE4LDgwIFoiIGlkPSJQYXRoLTIyIiBmaWxsPSIjMDAyODY4Ij48L3BhdGg+CiAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMCwzNy43MzA0NDA1IEwyNy4xMTQ1MzcsMC4yNTcxMTE0MzYgQzYyLjM3MTUxMjMsLTEuOTkwNzE3MDEgODAsMTAuNTAwMzkyNyA4MCwzNy43MzA0NDA1IEM4MCw2NC45NjA0ODgyIDY0Ljc3NjUwMzgsNzkuMDUwMzQxNCAzNC4zMjk1MTEzLDgwIEM0Ny4wNTUzNDg5LDc3LjU2NzA4MDggNTMuNDE4MjY3Nyw3MC4zMTM2MTAzIDUzLjQxODI2NzcsNTguMjM5NTg4NSBDNTMuNDE4MjY3Nyw0MC4xMjg1NTU3IDM2LjMwMzk1NDQsMzcuNzMwNDQwNSAyNS4yMjc0MTcsMzcuNzMwNDQwNSBDMTcuODQzMDU4NiwzNy43MzA0NDA1IDkuNDMzOTE5NjYsMzcuNzMwNDQwNSAwLDM3LjczMDQ0MDUgWiIgaWQ9IlBhdGgtMTkiIGZpbGw9IiMzNzkzRUYiPjwvcGF0aD4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+' />\nCreated in <span style='font-weight:600;margin-left:4px;'>Deepnote</span></a>",
+            "metadata": {
+                "created_in_deepnote_cell": true,
+                "deepnote_cell_type": "markdown"
+            }
+        }
+    ],
+    "metadata": {
+        "deepnote_notebook_id": "60fc1354a3f44dbfb0ba76952310f123",
+        "deepnote_notebook_name": "002 – Python Repaso"
+    },
+    "nbformat": 4,
+    "nbformat_minor": 0
+}
